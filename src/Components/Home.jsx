@@ -79,7 +79,7 @@ const Home = () => {
               filter === "Shoes" ? "bg-blue-600 text-white" : "bg-gray-200"
             }`}
           >
-            Shoes
+            Footwear
           </button>
           <button
             onClick={() => handleFilter("Clothing")}
