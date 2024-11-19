@@ -9,7 +9,7 @@ const Home = () => {
   const [filter, setFilter] = useState("All");
 
   useEffect(() => {
-    axios.get("https://estore-frontend.onrender.com/products").then((res) => {
+    axios.get("https://estore-backend-uilc.onrender.com/products").then((res) => {
       setProducts(res.data);
       setFilteredProducts(res.data);
     });
